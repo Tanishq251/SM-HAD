@@ -15,6 +15,8 @@
 
 *IEEE Transactions on Geoscience and Remote Sensing, 2026*
 
+[![Read Paper](https://img.shields.io/badge/Read%20Paper-PDF-D32F2F?style=flat-square&logo=adobeacrobatreader&logoColor=white)](assets/SM-HAD_paper.pdf)
+
 </div>
 
 ---
@@ -34,7 +36,7 @@ Evaluated on **six benchmark datasets** against **18 state-of-the-art methods**,
 ## Architecture
 
 <div align="center">
-  <img src="assets/pictures/Architecture.png" width="100%">
+  <img src="assets/Architecture.png" width="100%">
   <p><em>SM-HAD pipeline: self-supervised training stage (top) and anomaly detection stage (bottom). Sub-modules: (b) OSFB, (c) Residual Mamba, (d) MLP, (e) MVAB.</em></p>
 </div>
 
