@@ -1,0 +1,19 @@
+# SM-HAD: Spectrum Mamba for Hyperspectral Anomaly Detection
+# IEEE Transactions on Geoscience and Remote Sensing, 2026
+# DOI: 10.1109/TGRS.2026.3676658
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Note: mamba-ssm requires a CUDA-capable GPU and matching CUDA toolkit.
+# Tested on Python 3.10, CUDA 11.8, NVIDIA RTX 3090.
+
+torch>=2.0.0
+torchvision>=0.15.0
+mamba-ssm==2.2.4
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+progress>=1.6
