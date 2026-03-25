@@ -150,18 +150,6 @@ This will:
 5. Write an Excel summary to `results/SM-HAD/SM-HAD-results.xlsx`
 6. Write training logs to `logs/`
 
-### Hyperparameters (Section IV-C of the paper)
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| Patch size P | 15 | Spatial block size fed to the network |
-| Embedding dim D | 64 | Feature channel width |
-| Mamba state dim d_s | 64 | SSM state dimension |
-| Soft-shrinkage λ | 0.01 | OSFB sparsity threshold |
-| Learning rate η | 0.001 | Adam optimiser |
-| Batch size B | 64 | Patches per step |
-| Epochs | 100 | Training iterations |
-| Background search | every 25 ep | Match-vector update frequency |
 
 ---
 
@@ -242,19 +230,3 @@ If you find SM-HAD useful in your research, please cite:
 This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 This code is provided for academic and research use. Commercial use requires prior written permission from the authors.
 
----
-
-## Acknowledgements
-
-- Benchmark datasets are from the [GT-HAD benchmark](https://github.com/swalpa/GT-HAD) by Swalpa Kumar Roy et al.
-- State-space modeling powered by [mamba-ssm](https://github.com/state-spaces/mamba) by Albert Gu and Tri Dao.
-- Affiliated institutions: Siddhartha Academy of Higher Education (Vijayawada), VIT Bhopal, Tezpur University, Indian Statistical Institute Kolkata, University of Trento.
-
----
-
-## Contact
-
-- **Tanishq Rachamalla** — [tanishqrachamalla12@gmail.com](mailto:tanishqrachamalla12@gmail.com)
-- **Aryan Das** — [aryan.das2021@vitbhopal.ac.in](mailto:aryan.das2021@vitbhopal.ac.in)
-
-For bugs or reproducibility questions, please open a [GitHub Issue](https://github.com/Tanishq251/SM-HAD/issues).
